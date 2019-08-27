@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+#contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fondo{
+    width: 35%;
+    height: 97%;
+    background-color: red;
+    padding: 16px 25px 25px;
+}
+#cabecera{
+    display:flex;
+    justify-content: space-between;   
+    align-items: center;
+    height: 70px;
+}
+#cabecera-2{
+    width: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.base{
+    background-color: white;
+    width: 63px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 0;
+    color: red;
+    text-align: center;
+    padding: 4px;
+}
+.base p{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+#relativo{
+    position: relative;
+}
+#circulo{
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: -12px;
+    bottom: -12px;
+    z-index: 1;
+}
+
+#cabecera img{
+    width: 55%;
+    
+}
+span{
+    text-align: center;
+    font-weight: 500;
+}
+#titulares p:first-child{
+    font-weight: 700;
+    font-size: 33.5px;
+    color: white;
+}
+#titulares p:nth-child(2){
+    font-weight: 700;
+    font-size: 17.5px;
+    color: white;
+}
+#principal{
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin-top: 5px;
+    position: relative;
+
+}
+#principal>img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+#principal .caja{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    margin-left: 7px;
+    margin-top: 52px;
+   
+}
+#carne{
+    left: 50%;    
+}
+#roast{
+    left:75%;
+}
+#queso{
+    left:50%;
+    top:25%;
+}
+#yerba{
+    left:75%;
+    top:25%;
+}
+#jabon{
+    left:50%;
+    top:50%;
+}
+#pañal{
+    left:75%;
+    top:50%;
+}
+#carne img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+#roast img{
+    width:70%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#queso img{
+    width:90%;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.texto-rojo{
+    font-size: 7px;
+    color: red;
+    padding-top: 8px;
+}
+#principal .recuadro{
+    width: 70px;
+    height: 23px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#yerba img{
+    width:45%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#jabon img{
+    width:60%;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+#pañal img{
+    width:50%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#pie{
+    font-size: 7px;
+    color:white;
+    margin-top: 5px;
+}
