@@ -2,6 +2,6 @@
  Desarrollo de flyer de Coto basado en un template.
 <br>
 ## Preview
-[<img src="https://user-images.githubusercontent.com/54424032/65268120-db6cfa00-daec-11e9-859a-802b6ff99b2f.jpg">](https://em-stea.github.io/Blog-1/)
+[<img src="https://user-images.githubusercontent.com/54424032/65274063-e3329b80-daf8-11e9-9a1c-072830fbb2f9.png">](https://em-stea.github.io/practica/)
 
-[View Preview](https://em-stea.github.io/Blog-1/)
+[View Preview](https://em-stea.github.io/practica/)
